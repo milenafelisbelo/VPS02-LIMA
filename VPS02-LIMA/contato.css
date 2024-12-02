@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: rgba(43, 3, 59, 0.799);
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7575ae;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.div2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.div3 {
+    flex: 1;
+    text-align: center;
+}
+
+.div3 input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.div4 a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.div5 {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.div6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.div7 {
+    width: 30%;
+    color: rgba(43, 3, 59, 0.799);
+}
+
+.div8 {
+    width: 65%;
+}
+
+.div8 label {
+    display: block;
+    margin-top: 10px;
+    color: #7575ae;
+}
+
+.div8 input, .div8 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+}
+
+.div8 button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #fef6f6;
+    outline: none;
+}
+
+.div8 button:hover {
+    background-color: #e4e5eb;
+}
+
+footer {
+    background-color: #efeff4;
+    color: #b9b3b3;
+    padding: 20px;
+}
+
+.div9 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div10, .div11, .div12 {
+    width: 30%;
+    color: #7575ae;
+}
+
+.div10 h3, .div11 h3, .div12 h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #7575ae;
+}
+
+.div10 ul {
+    list-style: none;
+    padding: 0;
+    color: #7575ae;
+}
+
+.div10 ul li a {
+    color: #7575ae;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.div10 ul li a:hover {
+    color: #7575ae;
+}
+
+.div12 a img {
+    height: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+}
+
+.copy {
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #7575ae;
+    padding: 50px 0;
+    width: 100%;
+}
